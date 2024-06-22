@@ -64,16 +64,16 @@ CREATE TABLE IF NOT EXISTS `orderdetails1` (
 --
 
 INSERT INTO `orderdetails1` (`id`, `email`, `menu`, `quantity`, `addr`, `mobileno`, `msg`) VALUES
-(1, 'om33@gmail.com', 'Coffee (Rs.50)', 2, 'Sangamner', 123456789, 'thanks'),
-(2, 'om33@gmail.com', 'French Fries (Rs.325)', 2, 'Sangamner', 123456789, 'thanks'),
-(3, 'om33@gmail.com', 'French Fries (Rs.325)', 5, 'Sangamner', 123456789, 'thanks'),
-(4, 'abc33@gmail.com', 'Coffee (Rs.50)', 5, 'Sangamner', 123456789, 'thanks'),
-(5, 'abc33@gmail.com', 'Pasta (Rs.325)', 2, 'Sangamner', 123456789, 'hiii'),
-(6, 'abc33@gmail.com', 'Pasta (Rs.325)', 2, 'Sangamner', 123456789, 'order is wating'),
-(7, 'abc33@gmail.com', 'Sandwich (Rs.175)', 5, 'Sangamner', 123456789, 'thanks'),
-(8, 'adi12@gmail.com', 'Sandwich (Rs.175)', 2, 'Sangamner', 123456789, 'thanks'),
-(9, 'rushi12@gmail.com', 'Burgger (Rs.375)', 5, 'Sangamner', 1234567890, 'order is wating'),
-(10, 'yash@gmail.com', 'Pasta (Rs.325)', 1, 'Sangamner', 123456789, 'thanks'),
+(1, 'om33@gmail.com', 'Coffee (Rs.50)', 2, 'San', 123456789, 'thanks'),
+(2, 'om33@gmail.com', 'French Fries (Rs.325)', 2, 'San', 123456789, 'thanks'),
+(3, 'om33@gmail.com', 'French Fries (Rs.325)', 5, 'San', 123456789, 'thanks'),
+(4, 'abc33@gmail.com', 'Coffee (Rs.50)', 5, 'San', 123456789, 'thanks'),
+(5, 'abc33@gmail.com', 'Pasta (Rs.325)', 2, 'San', 123456789, 'hiii'),
+(6, 'abc33@gmail.com', 'Pasta (Rs.325)', 2, 'San', 123456789, 'order is wating'),
+(7, 'abc33@gmail.com', 'Sandwich (Rs.175)', 5, 'San', 123456789, 'thanks'),
+(8, 'adi12@gmail.com', 'Sandwich (Rs.175)', 2, 'San', 123456789, 'thanks'),
+(9, 'rushi12@gmail.com', 'Burgger (Rs.375)', 5, 'San', 1234567890, 'order is wating'),
+(10, 'yash@gmail.com', 'Pasta (Rs.325)', 1, 'San', 123456789, 'thanks'),
 (11, '', '', 0, '', 0, '');
 
 -- --------------------------------------------------------
@@ -99,8 +99,8 @@ CREATE TABLE IF NOT EXISTS `userinfodata` (
 INSERT INTO `userinfodata` (`id`, `user`, `email`, `mobile`, `comment`) VALUES
 (1, 'Tejas', 'tejas17@gmail.com', '01234567890', 'cafe'),
 (2, 'abcc', 'adi12@gmail.com', '', 'thanks'),
-(3, 'abc', 'irshanmomin6286@gmail.com', '', 'thanks'),
-(4, 'abc', 'irshanmomin6286@gmail.com', '07304794184', 'thanks'),
+(3, 'abc', 'irsh@gmail.com', '', 'thanks'),
+(4, 'abc', 'irsh@gmail.com', '123456789', 'thanks'),
 (5, 'aditya', 'om33@gmail.com', '123456789', 'thanks');
 
 -- --------------------------------------------------------
